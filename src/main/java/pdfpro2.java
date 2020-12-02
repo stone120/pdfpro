@@ -22,10 +22,9 @@ import java.io.IOException;
  */
 public class pdfpro2 {
 
-    public static final String IMAGE_SRC = "./data/dynaimc.jpg";
-    public static final String IMAGE_DEST = "./data/dynaimc_new.png";
-    public static final String PDF_SRC = "./data/201128.pdf";
-    public static final String PDF_DEST = "./data/output.pdf";
+    public static final String IMAGE_SRC = "./src/main/resources/dynaimc.jpg";
+    public static final String PDF_SRC = "./src/main/resources/201128.pdf";
+    public static final String PDF_DEST = "./target/output.pdf";
 
 
     public static void main(String[] args) throws Exception {

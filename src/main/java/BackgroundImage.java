@@ -14,7 +14,7 @@ import java.io.File;
 public class BackgroundImage {
     public static final String DEST = "./target/images/background_image.pdf";
 
-    public static final String IMAGE = "./src/main/resources/img/dynaimc.jpg";
+    public static final String IMAGE = "./src/main/resources/dynaimc.jpg";
 
     public static void main(String[] args) throws Exception {
         File file = new File(DEST);

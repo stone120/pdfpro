@@ -23,7 +23,7 @@ public class pdfpro1 {
     public static void main(String[] args) throws Exception {
         String workingDir = System.getProperty("user.dir");
         System.out.println(workingDir);
-        addImageToPdf(workingDir + "/data/201128.pdf", workingDir + "/data/output.pdf", workingDir + "/data/dynaimc.jpg");
+        addImageToPdf(workingDir + "/src/main/resources/201128.pdf", workingDir + "/target/output.pdf", workingDir + "/src/main/resources/dynaimc.jpg");
     }
     private static Image getWatermarkedImage(PdfDocument pdfDoc, Image img, String watermark) {
         float width = img.getImageScaledWidth();
