@@ -17,4 +17,6 @@ first_page = file_handle[0]
 first_page.insertImage(image_rectangle, fileName=barcode_file)
 
 file_handle.save(output_file)
-# test
+
+print("DF") #for test
+# new update
